@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <style>
+     .bt {
+      border-top: 8px solid #2ca7a0;
+    }    
+    .ml {
+      margin-left: 260px;
+    } 
+    .bb{
+      border-bottom: 1px solid #b9b7b7;
+    }
+    .bgcolor{
+      background-color:  #2ca7a0;
+    }
+    .text-color {
+      color: #2ca7a0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light p-0 bb">
+      <div class="container">
+      <h3 class="text-light px-3 py-2 my-0 bgcolor ">Mitali</h3>
+      <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+           
+          </li>
+        </ul>
+      
+    
+    </div>
+  </nav>
+  <div class="container border w-auto mt-3">
+    <div class="row"></div>
+    <div class="row">
+      <div class="col-0 col-md-2 col-lg-2 col-xl-2 m-0 p-0"></div>
+  <form class="form-horizontal" role="form" method="post" action="index.php">
+    <div class="form-group">
+      <label for="name" class="col-sm-2 control-label">Name</label>
+      <div class="col-md60">
+        <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="email" class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-60">
+        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="message" class="col-sm-2 control-label">Message</label>
+      <div class="col-sm-60">
+        <textarea class="form-control" rows="4" name="message"></textarea>
+      </div>
+    </div>
+    
+    </div>
+    <div class="form-group">
+      <div class="col-sm-60 col-sm-offset-2">
+        <input id="submit" name="submit" type="submit" value="Submit" class="btn btn-primary">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-60 col-sm-offset-2">
+        <! Will be used to display an alert to the user>
+      </div>
+    </div>
+  </form>
+
+   <!-- footer -->
+   <footer class="navbar fixed-bottom navbar-dark bg-dark a">
+      <p class="align-center text-light p-2 m-0">copyright@</p>
+    </footer>
+
+</body>
+
+</html>
